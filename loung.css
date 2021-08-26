@@ -1,7 +1,9 @@
 body {
   font-family: Verdana, Arial,Helvetica,  sans-serif;
   line-height: 1.6em;
+  /*
   background: url(https://i.pinimg.com/236x/07/ad/16/07ad16154bc8b6351f9015b21864c782.jpg);
+  */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover
@@ -59,5 +61,5 @@ p.cranberry{
       font-family: Georgia, "Times New Roman", Times, sans-serif;
       background-repeat:   no-repeat;
       background-position: top left;
-      background-image:    url(img/background.gif);
+      background-image: url(img/background.gif);
 }
