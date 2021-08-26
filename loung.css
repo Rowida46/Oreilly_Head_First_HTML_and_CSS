@@ -1,0 +1,63 @@
+body {
+  font-family: Verdana, Arial,Helvetica,  sans-serif;
+  line-height: 1.6em;
+  background: url(https://i.pinimg.com/236x/07/ad/16/07ad16154bc8b6351f9015b21864c782.jpg);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover
+
+}
+
+h1, h2 {    
+  color: #007e7e;
+}
+
+h1 { 
+ /*border-bottom: 1px solid black; */
+
+  font-size: 150%;
+}
+
+h2{
+  font-size: 130%;
+}
+p {
+  color: maroon;
+}
+
+blockquote.greentea , p.greentea {
+  color: green;
+}
+
+p.raspberry{
+  color : blue;
+}
+
+p.blueberry{
+  color: purple;
+}
+
+p.cranberry{
+  color: firebrick;
+}
+
+
+.guarantee {
+      border-width: 1px;
+      border-radius: 15px;
+      border-color: white;
+      border-width: 1px;
+      border-style: dashed;
+      padding: 25px;
+      padding-left: 130px;
+      margin: 30px;
+      margin-right: 250px;
+      line-height: 1.9em;
+      font-style: italic;
+      color: #444444;
+      background-color: #a7cece;
+      font-family: Georgia, "Times New Roman", Times, sans-serif;
+      background-repeat:   no-repeat;
+      background-position: top left;
+      background-image:    url(img/background.gif);
+}
