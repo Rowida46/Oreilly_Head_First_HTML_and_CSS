@@ -2,18 +2,43 @@ body {
   font-family: Verdana, Arial,Helvetica,  sans-serif;
   line-height: 1.6em;
   /*
+  font: small/1.6em Verdana, Helvetica, Arial, sans-serif;
   background: url(https://i.pinimg.com/236x/07/ad/16/07ad16154bc8b6351f9015b21864c782.jpg);
-  */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center;  Center the image 
+ 
+  background-repeat: no-repeat; Do not repeat the image
   background-size: cover
+  */
 
+  font-family: "Mali", cursive;
+  background: var(--mainWhite);
+  color: var(--mainDark);
 }
 
-h1, h2 {    
+@media (min-width: 481px) (max-width: 600px){
+body {
+  font-size: small;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+.guarantee{
+  line-height: 1.6em;
+  font-size:small;
+  margin-left: 30px;
+  padding-right: 10em;
+  text-align: center;
+}
+}
+
+p img{
+  width: 75px;
+  height: 95px;
+  border-radius: 50px;
+}
+
+h1, h2 {
   color: #007e7e;
 }
-
 h1 { 
  /*border-bottom: 1px solid black; */
 
@@ -43,7 +68,11 @@ p.cranberry{
   color: firebrick;
 }
 
+.parg{
+  width: 200px;
+  float:  right;
 
+}
 .guarantee {
       border-width: 1px;
       border-radius: 15px;
@@ -63,3 +92,64 @@ p.cranberry{
       background-position: top left;
       background-image: url(img/background.gif);
 }
+
+
+#elixirs{
+  border-width: thin;
+  border-style: solid;
+  border-color: #007e7e;
+  line-height: 1em;
+  padding: 0px 20px 20px 10px;
+  margin: 0px 20px 20px 10px;;
+}
+
+#elixirs h2 {
+  color: #000000;
+}
+
+#elixirs h3 {
+  color: #d12c47;
+}
+
+/*
+  instead of specifing the width andthe hight of each img inside the paraghrah 
+*/
+#elixirs p img {
+  width: 75;
+  height: 75;
+}
+  
+#elixirs p {
+  line-height: 1em;
+}
+
+
+.Raspberry_float{
+  float: right;
+  width: 50em;
+
+}
+#footer {
+  font-size: 50%;
+  text-align: center;
+  line-height: normal;
+  margin-top: 30px;
+}
+
+.artist {
+  font-weight: bold;
+}
+
+.cd {
+  font-style: italic;
+  color: maroon;
+}
+
+body p a:link {
+  color: #007e7e;
+}
+
+body p a:visited {
+  color: #333333;
+}
+
