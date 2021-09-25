@@ -7,7 +7,7 @@
 - [Web server vs Web browser](#web-server-vs-web-browser)
 
 
-## [QAS](#qas)
+## [QAS](#QAS)
 
 
 
@@ -49,4 +49,4 @@
 
 - Why do I need the `<html>` tag? Isn’t it obvious this is an HTML document?
 
-	g tells the browser your document is actually HTML. While some browsers will forgive you if you omit it, some won’t.
+	To tell the browser your document is actually HTML. While some browsers will forgive you if you omit it, some won’t.
