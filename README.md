@@ -34,7 +34,7 @@
 
 ### QAS
 
-- Comments in Html?
+- ***Comments in Html?***
 
 ```html
 
@@ -42,11 +42,11 @@
 
 ```
 
-- The HTML for the Head First Lounge has all kinds of indentation and spacing, and yet I don’t see that when it is displayed in the browser. How come?
+- *The HTML for the Head First Lounge has all kinds of indentation and spacing, and yet I don’t see that when it is displayed in the browser. How come?*
 
 	Browsersignore tabs, returns, and most spaces in HTML documents. Instead, they rely on the markup to determine where line and paragraph breaks occur. Tabs are onlyfor us to make thedocument more readable.
 
 
-- Why do I need the `<html>` tag? Isn’t it obvious this is an HTML document?
+- *Why do I need the `<html>` tag? Isn’t it obvious this is an HTML document?*
 
 	To tell the browser your document is actually HTML. While some browsers will forgive you if you omit it, some won’t.
