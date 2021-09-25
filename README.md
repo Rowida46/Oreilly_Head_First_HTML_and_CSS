@@ -19,13 +19,14 @@
    Web servers have a full-time job on the Internet, tirelessly waiting for requests from web browsers. What kinds of requests? Requests for web pages, images, sounds, or maybe
    even a video. When a server gets a request for any of these resources, the server finds the resource, and then sends it back to the browser.
 
-   <img src="res/server.png" alt="servers" width= 200>
+   <img src="res/server.png" alt="servers" width= 300>
 
 - __Web Browser__
 
 	You already know how a browser works: you’re surfing around the Web and you click on a link to visit a page. That click causes your browser to request an HTML page from a web
-	server, retrieve it, and display the page in your browser window,
-   <img src="res/browser.png" alt="browser" width= 200>
+	server, retrieve it, and display the page in your browser window.
+	
+   <img src="res/browser.png" alt="browser" width= 300>
 
 
 
@@ -55,6 +56,6 @@
 
 
 
-- *** `#` VS `.` in css style?
+- ***Note `#` VS `.` in css style?***
 
 	`#` used to select a div by its __Id__, while `.` used to select <div> by its __class name__.
