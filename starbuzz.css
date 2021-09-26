@@ -15,6 +15,7 @@ body {
 	float: right;
 }
 
+
 /* REMOVE FOR CHAP 12 */
 #award {
 	position: absolute;
@@ -23,7 +24,7 @@ body {
 }
 
 #coupon {
-    position: fixed;
+  position: fixed;
 	top: 350px;
 	left: -90px;
 }

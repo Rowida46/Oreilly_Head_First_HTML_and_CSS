@@ -1,18 +1,26 @@
 body {
-	 background-color: #b5a789; 
-	 font-family: Georgia, "Times New Roman", Times, serif;
-	 font-size: small;
-	 margin: 0px;
+	background-color: #b5a789; 
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: small;
+	margin: 0px;
 }
+
 #header { 
 	background-color: #675c47;
 	height: 108px;	
 	margin: 10px 10px 0px 10px;
-
 }
-#header img#headerSlogan {
+
+#header img#headerLogo {
 	float: right;
 }
+
+#header img#headerSlogan{
+	border-radius: 75%;
+	width: 95px;
+	height: 95px;
+}
+
 #main { 
 	display: table-cell;
 	background:#efe5d0 url(images/background.gif) top left; 
@@ -20,37 +28,40 @@ body {
 	padding:    15px; 
 	vertical-align: top;
 }
-#sidebar { 
-		background: #efe5d0 url(images/background.gif) bottom right;
-	    font-size:  105%;
-        padding:    15px;
-        float:      right;
-        vertical-align: top;
 
+#sidebar { 
+	background: #efe5d0 url(images/background.gif) bottom right;
+	font-size: 105%;
+	padding: 15px;
+	float: right;
+	vertical-align: top;
 }
+
+
 #footer {
- background-color: #675c47; 
- color: #efe5d0; 
- text-align: center; 
- padding:    15px; 
- margin:     10px; 
- font-size:  90%;
- clear: right;
+	background-color: #675c47; 
+	color: #efe5d0; 
+	text-align: center; 
+	padding:    15px; 
+	margin:     10px; 
+	font-size:  90%;
+	clear: right;
 }
+
 #tableRow {
 	display: table-row;
 }
 
 h1 {
- font-size:    120%;
- color:      #954b4b;
+	font-size:    120%;
+	color:      #954b4b;
 }
+
 .slogan { 
 	color:    #954b4b;
-	
-
 }
-.beanheading {  
+
+.beanheading {
 	text-align:    center;  
 	line-height:    1.8em
 }
@@ -60,8 +71,9 @@ a:link {
 	text-decoration:  none; 
 	border-bottom:    thin dotted #b76666;
 }
+
 a:visited {
- color: #675c47;
-  text-decoration:  none;
-   border-bottom: thin dotted #675c47;
+	color: #675c47;
+	text-decoration:  none;
+	border-bottom: thin dotted #675c47;
 }
