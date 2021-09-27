@@ -8,8 +8,8 @@ body {
 #header { 
 	background-color: #675c47;
 	height: 108px;	
-	margin: 10px ;
-	padding: 10px;
+	margin: 10px 10px 0px 10px;
+	padding: 15px;
 }
 
 #header img#headerLogo {
@@ -18,26 +18,63 @@ body {
 
 #header img#headerSlogan{
 	border-radius: 75%;
-	width: 100px;
-	height: 100px;
+	width: 130px;
+	height: 120px;
+}
+
+#award{
+	position: absolute;
+	top: 30px;
+	left: 365px;
+}
+#award img{
+	height: 90px;
+	width: 90px;
+}
+
+#coupon{
+	position: fixed;
+	top: 350px;
+	left: -90px;
+}
+
+#coupon a, img {
+    border: none;
+}
+
+#tableContainer {
+	display: table;
+	border-spacing: 10px;
+}
+
+#tableRow {
+	display: table-row;
+}
+
+#drinks {
+    display: table-cell;
+    background-color: #efe5d0;
+    width: 20%;
+    padding: 15px;
+    vertical-align: top;
 }
 
 #main { 
 	display: table-cell;
 	background:#efe5d0 url(images/background.gif) top left; 
-	font-size:    105%; 
+	font-size:    115%; 
 	padding:    15px; 
-	margin: 0px 330px 10px 10px;
+	margin:  10px 10px 10px 10px;
 	
 }
 
 #sidebar { 
     display: table-cell;
 	background: #efe5d0 url(images/background.gif) bottom right;
-	font-size: 105%;
+	font-size: 115%;
 	padding: 15px;
 	vertical-align: top;
-	margin: 20px 100px 10px 470px;
+	margin:  10px 10px 10px 10px;
 
 }
 
